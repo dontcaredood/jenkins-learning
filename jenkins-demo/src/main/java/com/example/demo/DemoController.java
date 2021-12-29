@@ -6,6 +6,6 @@ import org.springframework.web.bind.annotation.*;
 public class DemoController {
 	@RequestMapping(value="", produces="application/json")
 	public String welcome() {
-		return "Welcome Buddy!";
+		return "Welcome to Jenkins learning Buddy!";
 	}
 }
