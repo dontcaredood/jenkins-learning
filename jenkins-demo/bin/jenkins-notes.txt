@@ -10,5 +10,3 @@ mvn -N io.takari:maven:wrapper -Dmaven=3.3.3
 
 GIT PA TOKEN:
 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
-
-Test
