@@ -7,7 +7,7 @@ public class DemoController {
 	@RequestMapping(value="", produces="application/json")
 	public String welcome() {
 		System.out.println("Author Santhosh");
-		System.out.println("Demo Application running!");
+		System.out.println("Demo Application running successfullyu!");
 		return "Welcome to Jenkins learning Buddy!";
 	}
 }
