@@ -11,6 +11,7 @@ public class DemoController {
 		HashMap<String, String> result = new HashMap<String, String>();
 		result.put(firstName, "Santhosh");
 		result.put(lastName, "Kumar Pandi");
+		result.put("age", "23");
 		return result;
 	}
 }
