@@ -1,13 +1,16 @@
 package com.example.demo;
-
+import java.util.*;
 import org.springframework.web.bind.annotation.*;
 //Test
 @RestController
 public class DemoController {
+	public final String firstName = "first_name";
+	public final String lastName = "last_name";
 	@RequestMapping(value="", produces="application/json")
-	public String welcome() {
-		System.out.println("Author Santhosh");
-		System.out.println("Demo Application running successfullyu!");
-		return "Welcome to Jenkins learning Buddy!";
+	public HashMap<String, String> welcome() {
+		HashMap<String, String> result = new HashMap<String, String>();
+		result.put(firstName, "Santhosh");
+		result.put(lastName, "Kumar Pandi");
+		return result;
 	}
 }
